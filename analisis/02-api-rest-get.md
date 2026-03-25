@@ -10,10 +10,10 @@ Este análisis documenta la interacción con la API de pruebas JSONPlaceholder p
 
 ## Headers de Relevantes
 
-| Header          | Valor                             | Significado                                                                           |
-| --------------- | --------------------------------- | ------------------------------------------------------------------------------------- |
-| Content-Type    | [application/json; charset=utf-8] | [Indica que el cuerpo de la respuesta contiene datos en formato JSON.]                |
-| Cf-Cache-Status | [HIT]                             | [La respuesta fue entregada por el servidor perimetral de Cloudflare desde el caché.] |
+| Header          | Valor                           | Significado                                                                         |
+| --------------- | ------------------------------- | ----------------------------------------------------------------------------------- |
+| Content-Type    | application/json; charset=utf-8 | Indica que el cuerpo de la respuesta contiene datos en formato JSON.                |
+| Cf-Cache-Status | HIT                             | La respuesta fue entregada por el servidor perimetral de Cloudflare desde el caché. |
 
 ## Cuerpo de la Respuesta (JSON)
 
@@ -40,11 +40,11 @@ El código 404 indica que el servidor fue capaz de comunicarse con el cliente, p
 
 ## Comparación: Página HTML vs API REST
 
-| Característica | Petición HTML (Example.com)                 | Petición API (JSONPlaceholder)                     |
-| -------------- | ------------------------------------------- | -------------------------------------------------- |
-| Content-Type   | [text/html]                                 | [application/json]                                 |
-| Propósito      | [Visualización en navegador (Renderizado).] | [Intercambio de datos (Consumo por aplicaciones).] |
-| Legibilidad    | [Estructura visual para humanos.]           | [Estructura lógica para máquinas/código.]          |
+| Característica | Petición HTML (Example.com)               | Petición API (JSONPlaceholder)                   |
+| -------------- | ----------------------------------------- | ------------------------------------------------ |
+| Content-Type   | text/html                                 | application/json                                 |
+| Propósito      | Visualización en navegador (Renderizado). | Intercambio de datos (Consumo por aplicaciones). |
+| Legibilidad    | Estructura visual para humanos.           | Estructura lógica para máquinas/código.          |
 
 ## Conclusión
 
